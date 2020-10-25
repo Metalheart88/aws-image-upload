@@ -4,9 +4,6 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### Front End ###
-/src/main/frontend
-
 ### Env Variables ###
 /src/main/resources/application.properties
 
