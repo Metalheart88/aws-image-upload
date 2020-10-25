@@ -12,6 +12,7 @@ Simple project that allows users to upload images to AWS S3 bucket and store the
     * `spring.servlet.multipart.max-file-size=50MB` - this one is optional, you can enter any number for image size, totally up to you
     * `aws.accessKey=Your_AWS_Access_Key` - replace `Your_AWS_Access_Key` with your actual access key
     * `aws.secretKey=Your_AWS_Secret_Key` - replace `Your_AWS_Secret_Key` with your actual secret key
+* Open `src/main/java/com.metalheart.awsimageupload/config/AmazonConfig.java` and select your AWS S3 region on line 29
 * Open `src/main/java/com.metalheart.awsimageupload/bucket/BucketName.java` and replace `PROFILE_IMAGE` string with your actual bucket name
 * Sample images can be found in `src/main/resources/static`
 
