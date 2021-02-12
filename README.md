@@ -17,7 +17,7 @@ Simple project that allows users to upload images to AWS S3 bucket and store the
 * Sample images can be found in `src/main/resources/static`
 
 **To Run the Project:**
-* Open this cloned repo in your IDE of choice (my personal preference is IntelliJ when working in Java) and click Run button (_Shift+F10 on Win_)
+* Open this cloned repo in your IDE of choice (my personal preference is IntelliJ when working in Java) and click Run button (IntelliJ shortcut is _Shift+F10 on Windows_)
 * From your terminal go to `src/main/frontend` and run `npm install && npm start`
 
 _Please note the project is using fake in-memory database_
